@@ -1,0 +1,192 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    background-color: saddlebrown;
+    opacity: 0.9;
+}
+
+main {}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1526721940322-10fb6e3ae94a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80);
+    
+}
+
+
+
+header {
+    
+    flex-direction: column;
+    display: flex;
+    padding: 3%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    opacity: 0.899;
+    flex-wrap: wrap;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+#keybusca {
+    margin-top: 10px;
+    padding: 0; 
+}
+
+#info {
+    border: 0px solid #222;
+    background: #EEE;
+    width: 250px;
+    height: 22.5px;
+    margin: 0 auto;
+    padding: 5px 0 5px 5px;
+    float: left;
+    line-height: 36px;
+}
+
+#btn {
+    background: #240b69;
+    position: relative;
+    border: 0px solid #222;
+    color: #FFF;
+    margin: 0 auto;
+    padding: 10px;
+    border: 0 none;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#btn:hover {
+    background: #99cccc;
+}
+
+#select1 {
+    -webkit-appearance: none;
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;
+    background-position: 218px center;
+    width: 250px;
+    height: 35px;
+    border: 1px solid #ddd;
+}
+
+#faixa {
+    padding: 10px;
+    background-color: white;
+}
+
+#card {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border: black 2px solid;
+    margin-top: 10px;
+    border-radius: 70px;
+}
+
+#sec3{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+#sec4 {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+
+#titlelivros{
+    font-size: 25px;  
+    font-family: 'Raleway', sans-serif;  
+}
+
+#autor{
+    font-size: 21px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#editora{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+#datapu{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none ;
+}
+
+#divlink{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 45px;
+    background-color: rgb(172, 196, 184);
+    border-radius: 10px; 
+    border: black 1px solid; 
+}
+#logo{
+    width: 50px;
+    float: right;
+    padding-right: 15px;
+}
+
+#title2{
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#sec5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gifload{
+    width: 300px;
+}
+
+#load{
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border: black 2px solid;
+    margin-top: 10px;
+    border-radius: 70px;
+}  
+
+#title3{
+    color: black;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
